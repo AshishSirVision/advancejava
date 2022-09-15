@@ -1,0 +1,30 @@
+create database db1;
+use db1;
+create table stu
+(
+id int,
+name varchar(20),
+age int,
+course varchar(20),
+city varchar(25)
+);
+
+select * from stu;
+
+
+create database college;
+use db1;
+create table teacher
+(
+id int,
+name varchar(20),
+age int,
+department varchar(20),
+city varchar(25),
+gender varchar(10),
+qulification varchar(20)
+);
+
+select * from stu;
+
+

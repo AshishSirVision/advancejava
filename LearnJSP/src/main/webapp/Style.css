@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+body{
+	text-transform:uppercase;
+}
+.row {
+	display:block;
+}
+.header{
+	display:flex;
+}
+h1,h2{
+	margin:2px;
+	padding:10px 20px;
+	background:red;
+	color:wihte;
+}
+.id{
+	display:block;
+	text-align:center;
+	width:50px;
+}.id h2{
+	display:block;
+}.name{
+	position:absolute;
+	left:200px;
+}.address{
+	position:absolute;
+	left:200px;
+}.position{
+	position:absolute;
+	left:200px;
+}

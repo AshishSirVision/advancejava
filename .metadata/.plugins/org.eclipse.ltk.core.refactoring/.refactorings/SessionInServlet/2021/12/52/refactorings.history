@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;SessionInJSP&apos;&#x0D;&#x0A;- Original project: &apos;SessionInServlet&apos;&#x0D;&#x0A;- Destination element: &apos;SessionInJSP&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     index.html&#x0D;&#x0A;     login.html&#x0D;&#x0A;     link.html" description="Copy files" element1="src/main/webapp/index.html" element2="src/main/webapp/login.html" element3="src/main/webapp/link.html" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1640165114026" target="/SessionInJSP" units="0" version="1.0"/>
+</session>

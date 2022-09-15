@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;JSPSessionByKarunakar&apos; to &apos;JSPByKarunakar&apos;" description="Rename resource &apos;JSPSessionByKarunakar&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/JSPSessionByKarunakar" name="JSPByKarunakar" stamp="1640335339976" updateReferences="true"/>
+</session>

@@ -1,0 +1,5 @@
+127.0.0.1 - - [14/Dec/2021:15:02:03 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [14/Dec/2021:15:02:09 +0530] "GET /ExamplesOfservlet/GetAllRequestHeaders HTTP/1.1" 200 712
+0:0:0:0:0:0:0:1 - - [14/Dec/2021:15:02:10 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [14/Dec/2021:15:10:17 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [14/Dec/2021:15:10:17 +0530] "GET /ExamplesOfservlet/HTTPStatusCode HTTP/1.1" 404 719

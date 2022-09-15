@@ -1,0 +1,35 @@
+JSP directives
+1.	JSP directives
+
+1.	page directive
+
+2.	Attributes of page directive
+
+The jsp directives are messages that tells the web container how to translate a JSP page into the corresponding servlet.
+There are three types of directives:
+o	page directive
+o	include directive
+o	taglib directive
+Syntax of JSP Directive
+
+
+
+
+1.	<%@ directive attribute="value" %>  
+________________________________________
+JSP page directive
+The page directive defines attributes that apply to an entire JSP page.
+Syntax of JSP page directive
+
+
+
+
+1.	<%@ page attribute="value" %>  
+Attributes of JSP page directive
+o	import
+o	contentType
+o	extends
+o	info
+
+
+

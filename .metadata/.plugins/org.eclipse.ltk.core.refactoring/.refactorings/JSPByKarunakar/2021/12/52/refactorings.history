@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;JSPByKarunakar/src/main/webapp/JAVA Swing In Jsp.jsp&apos; to &apos;JAVA_Swing_In_Jsp.jsp&apos;" description="Rename resource &apos;JAVA Swing In Jsp.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/JAVA Swing In Jsp.jsp" name="JAVA_Swing_In_Jsp.jsp" stamp="1640423164269" updateReferences="true"/>
+</session>

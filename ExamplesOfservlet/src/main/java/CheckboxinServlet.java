@@ -1,0 +1,60 @@
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class CheckboxinServlet
+ */
+@WebServlet("/CheckboxinServlet")
+public class CheckboxinServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	/**
+	 * Default constructor.
+	 */
+	public CheckboxinServlet() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
+	 *      response)
+	 */
+	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+		res.setContentType("text/html");
+		String name;
+		String[] hobbies;
+
+		name = req.getParameter("name");
+		PrintWriter pw = res.getWriter();
+		hobbies = req.getParameterValues("hobbies");
+		if (hobbies != null) {
+			pw.println("<html><body bgcolor=#00fffff>");
+			pw.println("Hi I am <h4>" + name + ".</h4><br>");
+			for (int i = 0; i < hobbies.length; i++) {
+				pw.println(hobbies[i] + ",");
+			}
+			pw.println("</body></html>");
+		} else {
+			pw.print("plz first open html file,");
+		}
+
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
+	 *      response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

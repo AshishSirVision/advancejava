@@ -1,0 +1,63 @@
+
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class GettingCurrentDateTime
+ */
+@WebServlet("/GettingCurrentDateTime")
+public class GettingCurrentDateTime extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public GettingCurrentDateTime() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+    public void doGet(HttpServletRequest request, HttpServletResponse response)
+    	      throws ServletException, IOException {
+    	      
+    	      // Set response content type
+    	      response.setContentType("text/html");
+    	 
+    	      PrintWriter out = response.getWriter();
+    	      String title = "Display Current Date & Time";
+    	      Date dNow = new Date( );
+    	      SimpleDateFormat ft = new SimpleDateFormat ("E dd.MM.yyyy 'at' hh:mm:ss a zzz");
+    	      String doctype1=""
+      	      		+ "<!DOCTYPE html>"
+      	      		+ "<html>"
+      	      		+ "<head><title>"+title+"</title></head>"
+      	      		+ "<body style='color:blue;'>"
+      	      	+ "<h1>"+title+"</h1>"
+      	      		+ "<h1>"+dNow+"</h1>"
+      	      		+ "</body></html>";
+      	      
+      	      out.print(doctype1);	
+    	     
+    	   }
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}
